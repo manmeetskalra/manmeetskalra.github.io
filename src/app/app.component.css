@@ -64,12 +64,12 @@ head,body{
   .material-icons {
     display: none;
   }
-  
+  /*
   @media screen and (max-width: 1165px) {
       .container li {display: none;}
       .menu-toggle {
         float: right;
-        display: block;
+        display: none;
       }
       .material-icons {
         display: inline-block;
@@ -92,4 +92,4 @@ head,body{
         display: block;
         text-align: left;
       }
-    }
+    }*/

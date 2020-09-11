@@ -40,8 +40,6 @@
     transition: none 0s ease 0s;
     text-align: inherit;
     border-width: 0px;
-    margin: 0px;
-    padding: 0px;
     min-height: 0px;
     max-height: none;
     opacity: 1;
@@ -80,7 +78,6 @@
     display: grid;
     grid-template-columns: 1fr 2fr 3fr ;
     padding-top: 10rem;
-    padding-bottom: 5vw;
 
 }
 .dot {
@@ -89,6 +86,7 @@
 
 .main-home {
     background-color: black;
+    margin-bottom: 5rem;
 }
 
 .main-text {
