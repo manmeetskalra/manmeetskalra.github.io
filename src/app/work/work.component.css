@@ -33,14 +33,12 @@ img {
     font-family: "PT Serif";
     text-align: center;
     line-height: normal;
-    margin-right: 10rem;
     
 }
 .home-text1 {
 
-    z-index: 9;
     white-space: normal;
-    font-size: 150%;
+    font-size: 1.5rem;
     line-height: normal;
     font-weight: 400;
     color: rgb(0, 0, 0);
@@ -48,7 +46,7 @@ img {
     font-family: "PT Sans";
     visibility: inherit;
     transition: none 0s ease 0s;
-    text-align: inherit;
+    text-align: center;
     border-width: 0px;
     margin: 0px;
     padding:0rem;
@@ -58,3 +56,23 @@ img {
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform-origin: 50% 50% 0px;
 }
+@media screen and (max-width: 768px) {
+    .main-home {
+      background-color: black;
+      margin-bottom: 5rem;
+  }
+    .left-margin {
+      display: none;
+    }
+    .images {
+      grid-column: 1/6;
+      text-align: center;
+    }
+    .main-text{
+      grid-column: 1/6;
+      text-align: center;
+    }
+    .home-text1 {
+        text-align: center;
+    }
+  }

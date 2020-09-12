@@ -6,8 +6,8 @@ export TAG
 
 build: 
 	npm run build
-pack:
-	docker build -t 589545416063.dkr.ecr.ap-south-1.amazonaws.com/smartown-web:$(TAG) .
-upload:
-	docker push 589545416063.dkr.ecr.ap-south-1.amazonaws.com/smartown-web:$(TAG)
+pack: build
+	docker build -t 609414140111.dkr.ecr.us-west-1.amazonaws.com/personal-web:$(TAG) .
+upload: pack
+	docker push 609414140111.dkr.ecr.us-west-1.amazonaws.com/personal-web:$(TAG)
 

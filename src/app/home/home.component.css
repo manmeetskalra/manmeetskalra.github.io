@@ -1,11 +1,10 @@
 
 .home-text1 {
 
-    z-index: 9;
     min-width: 483px;
     max-width: 483px;
     white-space: normal;
-    font-size: 200%;
+    font-size: 2rem;
     line-height: 53px;
     font-weight: 400;
     color: rgb(255, 255, 255);
@@ -13,7 +12,6 @@
     font-family: "PT Sans";
     visibility: inherit;
     transition: none 0s ease 0s;
-    text-align: inherit;
     border-width: 0px;
     margin: 0px;
     padding-bottom:0rem;
@@ -22,15 +20,15 @@
     opacity: 1;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform-origin: 50% 50% 0px;
+    text-align: center;
 }
 
 .home-text3 {
 
-    z-index: 9;
     min-width: 483px;
     max-width: 483px;
     white-space: normal;
-    font-size: 500%;
+    font-size: 5rem;
     line-height: 53px;
     font-weight: 400;
     color: rgb(255, 255, 255);
@@ -38,7 +36,7 @@
     font-family: "PT Sans";
     visibility: inherit;
     transition: none 0s ease 0s;
-    text-align: inherit;
+    text-align: center;
     border-width: 0px;
     min-height: 0px;
     max-height: none;
@@ -49,11 +47,10 @@
 
 .home-text2 {
 
-    z-index: 10;
-    min-width: 482px;
-    max-width: 482px;
+    min-width: 483px;
+    max-width: 483px;
     white-space: normal;
-    font-size: 200%;
+    font-size: 2rem;
     line-height: 1em;
     font-weight: 400;
     color: rgb(255, 255, 255);
@@ -61,7 +58,7 @@
     font-family: "PT Sans";
     visibility: inherit;
     transition: none 0s ease 0s;
-    text-align: inherit;
+    text-align: center;
     border-width: 0px;
     margin-bottom: 1em;
     padding-bottom: 0px;
@@ -90,10 +87,8 @@
     margin-top: 7rem;
     margin-bottom: 3rem;
     font-family: "PT Serif";
-    width: 26vw;
     text-align: center;
     line-height: normal;
-    
 }
 .img-res {
     width: 100%;
@@ -173,14 +168,30 @@
 
 
 
-@media screen and (max-width: 420px) {
-  .mobile-screen {
-    display: block;
-    margin-left: none;
-    margin-right: none;
+@media screen and (max-width: 768px) {
+  .main-home {
+    background-color: black;
+    margin-bottom: 5rem;
+}
+  .images {
+    grid-column: 1/6;
+    text-align: center;
+  }
+  .main-text{
+    grid-column: 1/6;
+    text-align: center;
+  }
+  .home-text1{
+    max-width: none;
+  }
+  .home-text2{
+    max-width: none;
+  }
+  .home-text3{
+    max-width: none;
   }
 }
-
+/*
 @media screen and (max-width: 800px) {
     
     .main-text {
@@ -244,7 +255,6 @@
       
 }
 
-/* to be fixed more */
 @media screen and (max-width: 1000px) {
   .main-text {
       margin-top: 5rem;
@@ -270,4 +280,4 @@
   .main-home {
     background-color: black;
   }
-}
+}*/

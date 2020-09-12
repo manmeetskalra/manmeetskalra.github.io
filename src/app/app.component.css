@@ -4,9 +4,6 @@ head,body{
     padding: 0;
     
   }
-  nav {
-    z-index: 10;;
-  }
   .header {
     margin: 0;
     padding: 0;
@@ -17,6 +14,10 @@ head,body{
       overflow:hidden;
       
     }
+  nav {
+    z-index: 10;;
+  }
+  
     .container .icon {
       display: none;
     }
@@ -61,25 +62,18 @@ head,body{
     .header nav>ul>li>a {
       transition: background-color .3s ease-in-out, color .3s ease-in-out, border-color .3s ease-in-out;
   }
-  .material-icons {
-    display: none;
-  }
-  /*
-  @media screen and (max-width: 1165px) {
+  
+  
+  @media screen and (max-width: 768px) {
       .container li {display: none;}
-      .menu-toggle {
-        float: right;
-        display: none;
-      }
-      .material-icons {
-        display: inline-block;
-      }
       .container li:active{
         display: block;
       }
-      
+      .header{
+        display: none;
+      }
   }
-  
+  /*
   @media screen and (max-width: 1165px) {
       .container.responsive {position: relative;}
       .container.responsive .icon {
