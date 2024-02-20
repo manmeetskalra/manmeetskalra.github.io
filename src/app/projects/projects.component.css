@@ -15,8 +15,9 @@
 .container {
     height: 100%; 
     display: grid;
-    grid-template-columns:1fr 3fr 3fr 0.5fr;
+    grid-template-columns:1fr 7fr 1fr;
     padding-top: 10rem;
+    text-align: center;
 
 }
 .lady1 {
